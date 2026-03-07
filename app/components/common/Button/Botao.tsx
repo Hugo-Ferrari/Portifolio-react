@@ -1,6 +1,7 @@
-import { Github, Linkedin, MessageCircle } from "lucide-react";
+import { Github, Linkedin, MessageCircle, ArrowRight } from "lucide-react";
 
 interface TypeBotao {
+  // Mantive os tipos que você definiu
   tipo: "Linkedin" | "GitHub" | "Projetos" | "Sobre" | "Home" | "Habilidades" | "Contato" | "Whatsapp";
   text: string;
   href: string;
@@ -8,10 +9,18 @@ interface TypeBotao {
 }
 
 export function Botao({ tipo, text, href, variant = "primario" }: TypeBotao) {
-  const icones = {
+  
+  const icones: Record<string, React.ReactNode> = {
     Linkedin: <Linkedin className="w-5 h-5" />,
     GitHub: <Github className="w-5 h-5" />,
     Whatsapp: <MessageCircle className="w-5 h-5" />,
+    
+
+    Projetos: <ArrowRight className="w-5 h-5" />,
+    Sobre: <ArrowRight className="w-5 h-5" />,
+    Home: <ArrowRight className="w-5 h-5" />,
+    Habilidades: <ArrowRight className="w-5 h-5" />,
+    Contato: <ArrowRight className="w-5 h-5" />,
   };
 
   const baseStyle = "inline-flex items-center gap-2 px-5 py-3 rounded-lg font-medium transition-all duration-300 w-fit whitespace-nowrap";
