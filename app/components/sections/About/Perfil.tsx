@@ -8,7 +8,7 @@ import TextType from "../../TextType";
 export function Hugo() {
     return (
         <section id="principal" className=" pb-20 px-6 md:px-10">
-            <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center md:min-h-screen">
+            <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center md:min-h-screen mt-20 md:mt-0">
                 
                 <div className="flex flex-col gap-8">
                     <div className="space-y-3">
