@@ -1,7 +1,7 @@
 import { Github, Linkedin, MessageCircle, ArrowRight } from "lucide-react";
 
 interface TypeBotao {
-  // Mantive os tipos que você definiu
+  
   tipo: "Linkedin" | "GitHub" | "Projetos" | "Sobre" | "Home" | "Habilidades" | "Contato" | "Whatsapp";
   text: string;
   href: string;
