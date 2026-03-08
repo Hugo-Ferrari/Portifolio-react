@@ -25,8 +25,9 @@ export function Projetos() {
 
                                 <div className="w-full h-48  from-gray-700 to-gray-900 flex items-center justify-center overflow-hidden relative">
                                     <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity"></div>
-
-                                   <img src={project.image} className="text-gray-500 text-center "></img>
+                                    <div className="w-full h-32 md:h-40 lg:h-48 overflow-hidden">
+                                        <img src={project.image} className="w-full h-full object-cover "></img>
+                                    </div>
                                 </div>
 
                                 <div className="p-6 flex-1 flex flex-col justify-between">

@@ -51,7 +51,7 @@ export function Habilidades(){
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">Stack técnico que domino e utilizo para criar soluções inovadoras</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 gap-6">
                     {skills.map((skill, index) => {
                         const Icon = skill.icon;
                         return (

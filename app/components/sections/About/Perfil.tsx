@@ -7,10 +7,10 @@ import TextType from "../../TextType";
 
 export function Hugo() {
     return (
-        <section id="principal" className="pb-20 px-6 md:px-10">
+        <section id="principal" className="pb-20 px-6 py-20 ">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center md:min-h-screen ">
                 
-                <div className="flex flex-col gap-6 md:gap-8">
+                <div className="flex flex-col gap-4 md:gap-8">
                     <div className="space-y-3">
                         <p className="text-blue-400 font-semibold text-sm uppercase tracking-widest">Bem-vindo ao meu portfólio</p>
                         
