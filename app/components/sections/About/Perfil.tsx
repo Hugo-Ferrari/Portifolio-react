@@ -43,7 +43,7 @@ export function Hugo() {
                         <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-3xl opacity-30"></div>
                         <div className="relative  from-gray-800 to-gray-900 rounded-2xl p-1 overflow-hidden h-full flex items-center justify-center">
                             <div className="bg-black w-full h-full rounded-xl flex items-center justify-center">
-                                <img src = "" ></img>
+                                <img src = "/eu 08.03.2026.jpeg" ></img>
                             </div>
                         </div>
                     </div>

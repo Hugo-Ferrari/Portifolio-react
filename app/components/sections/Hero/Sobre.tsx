@@ -10,9 +10,9 @@ export function Sobre() {
           <div className="hidden md:block">
             <div className="relative w-120 h-150">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-2xl opacity-30"></div>
-              <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-1 overflow-hidden h-full">
+              <div className="relative  from-gray-800 to-gray-900 rounded-2xl p-1 overflow-hidden h-full">
                 <div className="bg-black w-full full rounded-xl flex items-center justify-center">
-                  <img src=''></img>
+                  <img src='/eu8.jpeg'></img>
                 </div>
               </div>
             </div>
