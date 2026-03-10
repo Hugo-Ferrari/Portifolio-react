@@ -29,7 +29,7 @@ export function Hugo() {
                     />
 
                     <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
-                        Estudante de Engenharia de Software com paixão por criar interfaces modernas e funcais. Especializado em React, Next.js e TypeScript.
+                        Estudante de Engenharia de Software com paixão por criar interfaces modernas e funcões. Especializado em React, Next.js e TypeScript.
                     </p>
 
                     <div className="flex flex-wrap gap-4 pt-4">
