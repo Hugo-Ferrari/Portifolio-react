@@ -13,7 +13,7 @@ const skills = [
     icon: Database,
     title: "Backend",
     description: "APIs e lógica de servidor",
-    items: ["Node.js","Express.js","API Integration","REST APIs"]
+    items: ["Node.js","API Integration","REST APIs"]
 },
 {
     icon: GitBranch,
